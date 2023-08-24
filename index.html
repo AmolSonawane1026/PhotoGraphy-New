@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotoGraphy New</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- ----------javascript aos library css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="navbar">
+      <nav>
+        <div class="logo">
+          <h2>PhotoGraphy</h2>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-bars" id="toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </section>
+
+    <!-- main background section -->
+    <section class="mainBg">
+      <div class="textBg">
+        <h1>Capturing moments from today…</h1>
+        <h2>Creating memories for a lifetime...</h2>
+        <div class="button button-1"><a href="gallery.html">EXPLORE</a></div>
+      </div>
+    </section>
+
+    <!-- work card heading -->
+    <div class="heading">
+      <h1>Gallery</h1>
+    </div>
+
+    <!----------------------------------- work section---------------------- -->
+    <section class="work" id="GalleryId">
+      <div class="container" >
+        <div class="card" style="--clr: #009688"  data-aos="zoom-in">
+          <div class="img-box">
+            <img src="./Images/weddingPhoto.jpg" />
+          </div>
+          <div class="content" >
+            <h2>Wedding Photography</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto, hic? Magnam eum error saepe doloribus corrupti
+              repellat quisquam alias doloremque!
+            </p>
+            <a href="Wedding.html">See More</a>
+          </div>
+        </div>
+        <div class="card" style="--clr: #ff3e7f"  data-aos="zoom-in">
+          <div class="img-box">
+            <img src="./Images/portraitPhoto.jpg" />
+          </div>
+          <div class="content">
+            <h2>Portrait Photography</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto, hic? Magnam eum error saepe doloribus corrupti
+              repellat quisquam alias doloremque!
+            </p>
+            <a href="Portrait.html">See More</a>
+          </div>
+        </div>
+        <div class="card" style="--clr: #03a9f4"  data-aos="zoom-in">
+          <div class="img-box">
+            <img src="./Images/naturePhoto.jpg" />
+          </div>
+          <div class="content">
+            <h2>Nature Photography</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto, hic? Magnam eum error saepe doloribus corrupti
+              repellat quisquam alias doloremque!
+            </p>
+            <a href="nature.html">See More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services heading -->
+    <div class="heading">
+      <h1>Services</h1>
+    </div>
+    
+
+    <section class="service">
+      <div class="service-card"  data-aos="zoom-in">
+        <img src="./Images/studioPhotogrphy.jpg" alt="" />
+        <h1>Studio Photography</h1>
+      </div>
+
+      <div class="service-card"  data-aos="zoom-in">
+        <img src="./Images/fashionPhotography.jpg" alt="" />
+        <h1>Fashion Photography</h1>
+      </div>
+
+      <div class="service-card"  data-aos="zoom-in">
+        <img src="./Images/documentaryPhotography.jpg" alt="" />
+        <h1>Documentary</h1>
+      </div>
+
+      <div class="service-card"  data-aos="zoom-in">
+        <img src="./Images/productPhotography.jpg" alt="" />
+        <h1>Product Photography</h1>
+      </div>
+    </section>
+
+    <!-- ***************footer section************* -->
+    <footer>
+      <footer class="footer">
+        <section class="all-footer">
+          <div class="footer-1">
+            <div class="footer-sub">
+              <img src="./Icons/addressIcon.png" alt="" />
+              <h2>Lahariya Plot Station Area Murtizapur, Akola, 444107</h2>
+            </div>
+
+            <div class="footer-sub">
+              <img src="./Icons/phoneIcon.png" alt="" />
+              <h2>+91 7558379918</h2>
+            </div>
+
+            <div class="footer-sub">
+              <img src="./Icons/emailIcon.png" alt="" />
+              <h2><a href="#">sonawaneamol787@gmail.com</a></h2>
+            </div>
+          </div>
+
+          <div class="footer-1">
+            <div class="footer-sub">
+              <img src="./Icons/footerInstagram.png" alt="" />
+              <h2>Instagram</h2>
+            </div>
+
+            <div class="footer-sub">
+              <img src="./Icons/footerFacebook.png" alt="" />
+              <h2>Facebook</h2>
+            </div>
+
+            <div class="footer-sub">
+              <img src="./Icons/FooterYoutube.png" alt="" />
+              <h2>YouTube</h2>
+            </div>
+          </div>
+        </section>
+
+        <div class="end-footer">
+          &#169;Copyright All Rights Reserved| Created By - Amol Sonawane
+        </div>
+      </footer>
+    </footer>
+
+    <script src="index.js"></script>
+    <!-- ------------javascript aos js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+          offset: 150,
+          duration: 800,
+        }
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Preahvihear&family=Tilt+Prism&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.contact-main{
+    height: 91vh;
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-main::before{
+    content: "";
+    background-image: url(./Images/contactBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+   
+}
+
+
+.contact-sub{
+    height: 570px;
+    width: 1000px;
+    background-color: #f2f2f2;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(255, 255, 255, 0.19) 0px 6px 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .cont-left{
+    border: 1px solid black;
+} */
+.cont-left img{
+    height: 230px;
+    width: auto;
+    margin-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cont-right{
+    height: 400px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+.cont-right h2{
+    text-align: center;
+    color: #f96d00;
+    margin: 12px;
+    font-size: 30px;
+    font-family: "Preahvihear", sans-serif !important;
+}
+.cont-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont-form input{
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(218, 218, 218);
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    margin: 10px;
+    font-family: "Preahvihear", sans-serif !important;
+}
+/* .cont-form textarea{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(218, 218, 218) ;
+    padding: 20px;
+    margin: 10px;
+    font-size: 15px;
+    textarea {
+        width: 100%;
+        height: 50px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none !important;
+      }
+} */
+
+#form-id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#form-id textarea{
+        width: 94%;
+        height: 100px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        /* border: 1px solid #ccc; */
+        border: none;
+        border-radius: 30px;
+        background-color: rgb(218, 218, 218);
+        font-size: 16px;
+        resize: none;
+        font-family: "Preahvihear", sans-serif !important;
+      
+}
+
+/* contact btn css */
+.cont-btn{
+    height: 40px;
+    width: 260px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #f96d00;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-family: "Preahvihear", sans-serif !important;
+    transition: all 0.5s ease;
+}
+.cont-btn:hover{
+    background-color: #f2f2f2;
+    color: black;
+    border: 1px solid #f96d00;
+    transform: scale(1.1);
+}
+
